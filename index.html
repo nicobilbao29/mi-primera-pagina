@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo HTML y CSS</title>
+    <title>Mi Portafolio Personal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #5098aa;
+        }
+
+        header img {
+        width: 200px; /* Cambia el ancho de la imagen aquí */
+        height: auto; /* Ajusta automáticamente la altura proporcionalmente */
+        border-radius: 50%; /* Agrega bordes redondeados */
+        }
+
+
+        header {
+            background-color: #5098aa;
+            padding: 20px;
+            color: #fff;
         }
 
         h1 {
-            color: #333;
+            margin: 0;
         }
 
-        p {
-            color: #666;
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
         }
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        section {
             padding: 20px;
             background-color: #fff;
             border: 1px solid #ccc;
             border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #F2E9E4;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenido a mi página web</h1>
-        <p>Hola, este es un ejemplo básico de HTML y CSS combinados.</p>
-    </div>
+    <header>
+        <img src="https://media.istockphoto.com/id/1169700079/es/foto/tecnolog%C3%ADa-de-big-data-para-business-finance-concept.jpg?s=612x612&w=0&k=20&c=TsOcEPMCNBSwJs8IIbKAJiWbODH_qDVnInx4NIG-NDc=" alt="Descripción de la imagen">
+        <h1>nombre Apellido</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Acerca de mí</h2>
+        <p>Soy Nicolás Bilbao, un contador general apasionado por la analítica de datos y el análisis financiero. Actualmente me desempeño como Analista Contable Senior y estudio Ingeniería en Data Science. Mi destreza técnica incluye el dominio de herramientas y lenguajes de análisis de datos como Excel, Power BI, SQL y Python.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Análisis de datos</li>
+            <li>Finanzas corporativas</li>
+            <li>Modelado financiero</li>
+            <li>Visualización de datos</li>
+            <li>Gestión de proyectos</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes listar algunos de tus proyectos destacados con enlaces o descripciones breves.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: nicobilbao29@gmail.com</li>
+            <li>Teléfono: +56966053614</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/nicolasbilbao">nicolasbilbao</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nicolás Bilbao - Portafolio Personal</p>
+    </footer>
 </body>
 </html>
+
